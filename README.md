@@ -9,19 +9,19 @@ Install the plugin to your project.
 Call the plugin from your JavaScript.
 
 ```js
-    var success = function(is24h) {
-			if (is24h === true) {
-				alert("24 hours.");
-				// Do what you want.
-			} else if (is24h === false) {
-				alert("12 hours.");
-				// Do what you want.
-			}
-    }
-		
-    var failure = function() {
-      alert("Error calling CheckTimeConvention plugin!");
-    }
+	var success = function(is24h) {
+		if (is24h === true) {
+			alert("24 hours.");
+			// Do what you want.
+		} else if (is24h === false) {
+			alert("12 hours.");
+			// Do what you want.
+		}
+    	}
     	
-    CheckTimeConvention.timeConvention(success, failure);
+	var failure = function() {
+		alert("Error calling CheckTimeConvention plugin!");
+	}
+	
+	CheckTimeConvention.timeConvention(success, failure);
 ```
