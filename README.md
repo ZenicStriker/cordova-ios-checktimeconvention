@@ -4,7 +4,7 @@ Checks if Cordova is running in a 12 (AM/PM) or 24 hour environment in iOS.
 ## How To Use
 Install the plugin to your project.
 
-    $ cordova plugin add https://github.com/ZenicStriker/cordova-ios-checktimeconvention
+    $ cordova plugin add https://github.com/tomskarning/cordova-ios-checktimeconvention
 
 Call the plugin from your JavaScript.
 
