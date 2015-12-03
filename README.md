@@ -1,5 +1,5 @@
 # Check Time Convention
-Checks if Cordova is running in a 12 or 24 hour time convention for iOS.
+Checks if Cordova is running in a 12 (AM/PM) or 24 hour environment in iOS.
 
 ## How To Use
 Install the plugin to your project.
