@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        id="us.elirio.d.checktimeconvention"
+        version="0.5.0">
+
+  <name>CheckTimeConvention</name>
+
+  <engines>
+    <engine name="cordova" version=">=3.4.0"/>
+  </engines>
+
+  <asset src="www/CheckTimeConvention.js" target="js/CheckTimeConvention.js"/>
+
+  <js-module src="www/CheckTimeConvention.js" name="CheckTimeConvention">
+    <clobbers target="CheckTimeConvention" />
+  </js-module>
+	
+  <platform name="ios">
+    
+    <config-file target="config.xml" parent="/widget">
+      <feature name="CheckTimeConvention">
+        <param name="ios-package" value="CheckTimeConvention" />
+      </feature>
+    </config-file>
+
+    <header-file src="src/ios/CheckTimeConvention.h" target-dir="CheckTimeConvention"/>
+    <source-file src="src/ios/CheckTimeConvention.m" target-dir="CheckTimeConvention"/>
+  </platform>
+
+</plugin>
