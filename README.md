@@ -17,7 +17,7 @@ Call the plugin from your JavaScript.
 			alert("12 hours.");
 			// Do what you want.
 		}
-    	}
+	}
     	
 	var failure = function() {
 		alert("Error calling CheckTimeConvention plugin!");
